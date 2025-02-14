@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7999469007858083487
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7806960751056958243}
+  - component: {fileID: 6326866919519542217}
+  - component: {fileID: 8975330150993281057}
+  - component: {fileID: 3812103753414814444}
+  m_Layer: 0
+  m_Name: LevelStatusUpdate
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7806960751056958243
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7999469007858083487}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 818.9754, y: 695.27386, z: -1092.8546}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6326866919519542217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7999469007858083487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28969d6672dad044a9b521a4f25c0021, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  targetCanvas: {fileID: 0}
+--- !u!114 &8975330150993281057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7999469007858083487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b1c08ec40ec4ed9468499963e6fc1fdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  incapacitatedUnitsText: {fileID: 0}
+  allSuspectsText: {fileID: 0}
+  killedSuspectsText: {fileID: 0}
+  arrestedSuspectsText: {fileID: 0}
+  allCiviliansText: {fileID: 0}
+  detainedCiviliansText: {fileID: 0}
+  allEvidenceText: {fileID: 0}
+  collectedEvidenceText: {fileID: 0}
+--- !u!114 &3812103753414814444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7999469007858083487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e4ec542d70c9d544bf05e6005795687, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelStatus: {fileID: 0}
+  finishLevelButton: {fileID: 0}
+  failureCanvas: {fileID: 0}
+  successCanvas: {fileID: 0}
